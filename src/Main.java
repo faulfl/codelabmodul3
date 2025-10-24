@@ -5,6 +5,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("=== Pertanyaan Pilihan Ganda ===");
+        System.out.println("testtt");
         System.out.println("Siapa yang paling ganteng?");
         System.out.println("a. Kipli");
         System.out.println("b. King Henry");
@@ -18,7 +19,11 @@ public class Main {
         } else if (jawaban.equalsIgnoreCase("b")) {
             // Melempar exception sesuai permintaan
             throw new RuntimeException("jawaban anda salah, coba lagi");
+
         } else if (jawaban.equalsIgnoreCase("c")) {
+            // Melempar exception sesuai permintaan
+            throw new RuntimeException("jawaban anda salah, coba lagi");
+        } else if (jawaban.equalsIgnoreCase("D")) {
             // Melempar exception sesuai permintaan
             throw new RuntimeException("jawaban anda salah, coba lagi");
         } else {
